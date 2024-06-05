@@ -1,0 +1,14 @@
+.header {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+}
+.header .btn {
+    background-color: #50146c !important;
+    border: none !important;
+    margin: 5px;
+}
+.input-group.mb-3 {
+    margin: 5px 5px 5px 0 !important;
+}

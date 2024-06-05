@@ -1,0 +1,26 @@
+.basicTabs {
+    width: 50%;
+    margin: auto;
+    border: solid 1px #181332;
+    padding: 20px;
+    position: relative;
+}
+.basicTabs.grid .tab-pane{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.basicTabs .btn {
+    position: absolute;
+    right: 19px;
+    background-color: #50146c !important;
+    border: none !important;
+}
+.nav-link.active {
+    background-color: #50146c !important;
+    color: white !important;
+}
+.nav-link {
+    color: #50146c !important;
+}
